@@ -15,7 +15,7 @@ public class Deform : MonoBehaviour {
     [SerializeField] float amount = 30.0f;
     [SerializeField] float frequency = 1.0f;
     [SerializeField] float smooth = 1.0f;
-    [SerializeField] Axis axis  = Axis.z;
+    [SerializeField] Axis axis  = Axis.y;
 
     private void Start()
     {
